@@ -102,7 +102,7 @@ def __main__():
     """ Loop through each page and scrape the data """
     headers_list = []
     rows_list = [] 
-    for year in range(1974, 2024):
+    for year in range(1974, 2023):
         print("year:", year)
         for i in range(0, 100):
             print("page:", i)
