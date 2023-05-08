@@ -109,7 +109,7 @@ def __main__():
     """ Loop through each page and scrape the data """
     headers_list = []
     rows_list = [] 
-    for i in range(0, 54):
+    for i in range(0, 1000):
         print("page:", i)
         if(i % 2 == 0): time.sleep(1)
         url_params = URL_PARAMS.copy()
