@@ -20,9 +20,10 @@ from . import util # NOTE: How to import our local util.py file.
 # Set all of the variable constants that you will need.
 # ----------
 
+YEAR = '2023'
 BASE_URL = 'https://www.pdga.com/players/stats'
 URL_PARAMS = {
-    'Year': '2023',
+    'Year': YEAR,
     'player_Class': '1',
     'Gender': 'Female',
     'Bracket': 'All',
