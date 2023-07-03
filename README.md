@@ -73,4 +73,3 @@ In a terminal run these commands (without the parentheses).
 * `scrapers.pdga.__main__()`
 * `exit()`
 * `nano pdga.csv`
-
